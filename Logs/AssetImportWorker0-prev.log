@@ -1,0 +1,110 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/cslab-mbp-two/Documents/cart315_IterativePrototype
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49476
+Successfully changed project path to: /Users/cslab-mbp-two/Documents/cart315_IterativePrototype
+/Users/cslab-mbp-two/Documents/cart315_IterativePrototype
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/cslab-mbp-two/Documents/cart315_IterativePrototype/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-30 15:33:30.396 Unity[1014:43924] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-03-30 15:33:30.396 Unity[1014:43924] Metal devices available: 1
+2021-03-30 15:33:30.396 Unity[1014:43924] 0: Intel Iris Pro Graphics (low power)
+2021-03-30 15:33:30.397 Unity[1014:43924] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56014
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000484 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 34.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.4 MB.
+System memory in use after: 110.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 3.055003 ms (FindLiveObjects: 0.295540 ms CreateObjectMapping: 0.102865 ms MarkObjects: 2.535750 ms  DeleteObjects: 0.118951 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/platform-builder-pro/PlatformPoint.cs
+  artifactKey: Guid(24c957d6f9f356c4dabc3ff90955027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform-builder-pro/PlatformPoint.cs using Guid(24c957d6f9f356c4dabc3ff90955027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d3af3c93da351b455da12c3fbe2aed') in 0.083242 seconds
+  Import took 0.086591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/platform-builder-pro/Demo
+  artifactKey: Guid(ff2c8f6c950492b4d8b0fb3a53a1d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform-builder-pro/Demo using Guid(ff2c8f6c950492b4d8b0fb3a53a1d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0187e7131f729c38bf7c4f758f55ce') in 0.000695 seconds
+  Import took 0.002203 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 2.617499 ms (FindLiveObjects: 0.276864 ms CreateObjectMapping: 0.072730 ms MarkObjects: 2.197847 ms  DeleteObjects: 0.068203 ms)
+
