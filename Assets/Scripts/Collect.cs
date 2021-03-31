@@ -12,7 +12,7 @@ public class Collect : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
+
         if (collision.collider.gameObject.CompareTag(collecttag))
         {
 
@@ -20,7 +20,7 @@ public class Collect : MonoBehaviour
 
             score = score + 1;
             scoredisplay.text = score + "/ Marbles";
-            
+            Debug.Log("collected");
 
         }
     }
@@ -31,6 +31,7 @@ public class Collect : MonoBehaviour
     {
         if (score == 7)
         {
+            SceneManager.LoadScene(2);
             Debug.Log("WIN!");
         }
     }
