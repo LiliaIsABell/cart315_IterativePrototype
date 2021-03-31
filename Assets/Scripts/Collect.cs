@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,8 +18,10 @@ public class Collect : MonoBehaviour
             Destroy(collision.collider.gameObject);
 
             score = score + 1;
-            scoredisplay.text = score + "/ Marbles";
+            scoredisplay.text = score + "/"+ "Marbles";
             Debug.Log("collected");
+
+            FindObjectOfType<AudioManager>().Play("marbleCollected");
 
         }
     }
