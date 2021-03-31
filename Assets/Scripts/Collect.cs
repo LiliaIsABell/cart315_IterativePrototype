@@ -18,8 +18,8 @@ public class Collect : MonoBehaviour
             Destroy(collision.collider.gameObject);
 
             score = score + 1;
-            scoredisplay.text = score + "/"+ "Marbles";
-            Debug.Log("collected");
+            scoredisplay.text = score + " /"+ " Marbles";
+            
 
             FindObjectOfType<AudioManager>().Play("marbleCollected");
 
@@ -33,7 +33,7 @@ public class Collect : MonoBehaviour
         if (score == 7)
         {
             SceneManager.LoadScene(2);
-            Debug.Log("WIN!");
+            
         }
     }
 }
