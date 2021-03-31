@@ -9,13 +9,13 @@ public class Collect : MonoBehaviour
     public Text scoredisplay;
     int score = 0;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
 
-        if (collision.collider.gameObject.CompareTag(collecttag))
+        if (collision.gameObject.CompareTag(collecttag))
         {
 
-            Destroy(collision.collider.gameObject);
+            Destroy(collision.gameObject);
 
             score = score + 1;
             scoredisplay.text = score + " /"+ " Marbles";
