@@ -18,7 +18,7 @@ public class Collect : MonoBehaviour
             Destroy(collision.gameObject);
 
             score = score + 1;
-            scoredisplay.text = score + " /"+ " Marbles";
+            scoredisplay.text = score + " /"+ " 7 Marbles";
             
 
             FindObjectOfType<AudioManager>().Play("marbleCollected");
