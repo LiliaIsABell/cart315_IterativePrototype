@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Collect : MonoBehaviour
+public class Collect_1 : MonoBehaviour
 {
     public string collecttag;
     public Text scoredisplay;

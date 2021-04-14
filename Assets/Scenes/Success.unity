@@ -558,8 +558,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35.3}
-  m_SizeDelta: {x: 488.306, y: 54.475}
+  m_AnchoredPosition: {x: 0, y: 21}
+  m_SizeDelta: {x: 611.6152, y: 89.4682}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &808155887
 MonoBehaviour:
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You collected all the marbles!
+  m_text: You made it through all the levels!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -952,7 +952,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -55.2}
+  m_AnchoredPosition: {x: 0, y: -51.49}
   m_SizeDelta: {x: 702.0314, y: 103.8517}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486810357
